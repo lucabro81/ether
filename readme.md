@@ -1,3 +1,9 @@
+# Ether — A Physics-Based Magic System
+
+A classless tabletop/digital RPG magic system grounded in thermodynamics rather than mysticism. Designed with digital implementation as the primary target (MUD, text adventure, companion app), but functional for tabletop play.
+
+## Premise
+
 Magic is not a resource you spend. It is a physical phenomenon you interact with.
 The world is permeated by an omnipresent background energy field — the Ether. 
 
