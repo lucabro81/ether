@@ -7,15 +7,8 @@ Concetti e meccaniche da affrontare in sessioni dedicate. Non bloccanti per il l
 ## Rogue Path
 
 - **Forma della curva di corruzione** — shape numerica, threshold, calibrazione. Mechanic design.
-- **Progressione sintomi consunzione vs avvelenamento** — sequenza concreta dei sintomi per ciascun processo, dove divergono e quando.
-- **Punto di non ritorno** — il player lo ha già superato quando i sintomi diventano inequivocabili, o ha ancora una finestra di scelta consapevole? Decisione di design con implicazioni sul tono del sistema.
-- **Variabilità individuale della curva** — il draft originale aveva la sealed envelope. Va confermata, sostituita, o ridefinita.
-
----
-
-## Rogue Path — estrazione da fonte vivente come arma
-
-- **Dinamica emergente** — un mago rogue potrebbe usare il draining direttamente come attacco, non solo come fonte di EP. Va definito se questo è possibile, in che misura, e se ha conseguenze meccaniche distinte rispetto al draining passivo. Rischio: diventa un tool di combat ottimizzabile che svuota il peso narrativo del gesto.
+- **Progressione sintomi consunzione vs avvelenamento** — la lista pubblica è definita. La sequenza concreta dei sintomi per ciascun processo separatamente, dove divergono e quando, è ancora aperta a livello di mechanic design.
+- **Variabilità individuale della curva** — confermata concettualmente: la lista è nota, la curva personale no. Il meccanismo concreto (sealed envelope o alternativa) richiede mechanic design.
 
 ---
 
