@@ -104,7 +104,7 @@ The host system's physical health representation feeds into Ether at cast time a
 
 **Mental stress → channel control**
 Direction: host → Ether
-The host system's psychological state representation feeds into Ether at cast time as a threshold modifier. Fear and panic interfere with the nervous system's ability to direct the channel. At acute levels the interface saturates, collapsing structured effect capability while leaving the channel active. The host system must provide a current mental stress value that Ether can consume, distinct from physical stress.
+The host system's psychological state representation feeds into Ether at cast time as a threshold modifier. Mental stress progresses through four qualitative levels: interference (moderate Coherence Roll penalty), serious interference (heavy penalty, complex structuring risky), limit (complex structuring inadvisable but possible, simple structuring at real risk — the window of dramatic tension), and full saturation (structuring impossible, involuntary discharge risk). Threshold tolerance scales with expertise and relevant attributes. The host system must provide a current mental stress value that Ether can consume, distinct from physical stress.
 
 ---
 
@@ -114,7 +114,7 @@ The host system's psychological state representation feeds into Ether at cast ti
 The corruption curve must be calibrated so that symptoms provide sufficient signal to make the point of no return a meaningful player choice — not an accident, not trivially avoidable. The shape of the curve, the symptom progression, and the threshold location require dedicated mechanic design.
 
 **Stress modifier scaling**
-How physical stress maps to Ether modifiers requires calibration. The curve is non-linear — flat in the high range, steep at low values. Mental stress threshold values and their specific effects also require definition. Both require dedicated mechanic design.
+Physical stress modifier curve requires calibration — non-linear, flat in the high range, steep at low values. Mental stress conceptual structure is closed: four thresholds defined, tolerance scaling with expertise confirmed. Numerical calibration of both requires dedicated mechanic design.
 
 **Temporary channel enhancement**
 Whether channel capability can be temporarily elevated — through components, substances, rituals, or other means — is noted as a possibility but not yet defined. If it exists, the mechanism and cost require dedicated design.
