@@ -12,6 +12,15 @@ Energy removed from the local field equals energy made available to the mage. Co
 Extraction concentrates dispersed energy, locally reducing the field's entropy. This is thermodynamically permitted because any ordered structure the mage imposes will eventually dissolve, releasing that entropy back. The books balance over time, not in the immediate environment.
 Mechanically relevant only as a constraint on structured effects, they are inherently temporary.
 
+### ETHER SOURCE
+The origin point from which raw energy is drawn during extraction. Three types:
+
+ - **Ambient field:** energy drawn from the local environment including all matter in proximity, potentially including the caster. Produces full thermal drop. Default when no alternative is available.
+ - **Components:** materials identified through magical theory or empirical practice as concentrated ether sources. Usable individually or in combination. Reduce ambient extraction proportionally to their quality, reducing thermal drop accordingly. A perfect component would eliminate ambient extraction entirely, in practice, quality determines how close to that ceiling a component gets. The component depletes instead. Channel strain is unaffected.
+**Living sources:** addressed separately under Rogue Path.
+
+*Note: component quality is a primitive to be defined. The caster's own body as ambient source is addressed under Ether Pressure.*
+
 ### EXTRACTION
 The act of drawing energy from the local Ether field and concentrating it into a usable form. Always produces a thermal drop. The mage does not generate energy, they displace it from the field into a controlled state. Extraction is a prerequisite for any magical effect; there is no structuring without prior extraction.
 
@@ -21,15 +30,6 @@ Collimation is extraction-scoped only. It describes how energy is gathered, not 
 
 ### THERMAL DROP
 Direct consequence of extraction and collimation. When energy is removed from a local volume of the field, that volume's energy density decreases, manifesting as a measurable temperature drop. Proportional to the amount extracted, inversely proportional to channel quality. If the extracted energy is released at a different location, the extraction point remains cold, no local reequilibration occurs. Repeated extraction in the same area produces cumulative cooling; this is physically real but not mechanically tracked unless dramatically relevant.
-
-### ETHER SOURCE
-The origin point from which raw energy is drawn during extraction. Three types:
-
- - **Ambient field:** energy drawn from the local environment including all matter in proximity, potentially including the caster. Produces full thermal drop. Default when no alternative is available.
- - **Components:** materials identified through magical theory or empirical practice as concentrated ether sources. Usable individually or in combination. Reduce ambient extraction proportionally to their quality, reducing thermal drop accordingly. A perfect component would eliminate ambient extraction entirely, in practice, quality determines how close to that ceiling a component gets. The component depletes instead. Channel strain is unaffected.
-**Living sources:** addressed separately under Rogue Path.
-
-*Note: component quality is a primitive to be defined. The caster's own body as ambient source is addressed under Ether Pressure.*
 
 ### STRUCTURING
 The act of imposing form on extracted energy. A separate step from extraction, collimation ends here, structuring begins. Two modes:
@@ -67,6 +67,9 @@ Thermal drop radius: direct consequence of extraction efficiency. The wider the 
 
 Channel quality has a natural ceiling determined by anatomy, training can develop the channel toward that ceiling but not beyond it. Whether that ceiling can be artificially exceeded, and at what cost, is addressed under the Rogue Path.
 Degradation is possible. Sustained operation beyond safe EP thresholds, backlash from volatile components, and extraction from living sources all carry risk of permanent channel damage. Damage lowers the effective ceiling.
+
+### ETHERIC SYSTEM
+see [channel]()
 
 ### MAGNITUDE
 The amount of effective energy delivered by a structured effect. Represents the raw "power" of the output, heat, force, light, or any other physical manifestation. Competes directly with Duration and Distance for the available energy budget.
