@@ -50,6 +50,41 @@ One early symptom of poisoning worth isolating: the mage begins to prefer dirty 
 
 At advanced stages, the mage may become deliberately negligent about components. They stop maintaining supply. The absence of alternatives stops feeling like a problem.
 
+### The public list
+
+The following progression exists in the world as accumulated lore: legend, practitioner knowledge, secondhand accounts. A mage with enough exposure to the subject knows this list or a version of it. It does not distinguish between consumption and poisoning; at the level of observable symptoms, the two processes are difficult to tell apart, especially early on. That distinction requires expertise and direct observation.
+
+1. Nightmares, disturbed sleep
+2. Unstable body temperature — always cold or always hot without identifiable cause
+3. Nosebleeds under magical exertion
+4. Animals becoming agitated or fleeing in the mage's presence
+5. Tremors in precision actions — difficulty writing, handling small objects
+6. Involuntary discharges under acute emotional stress
+7. Brief hallucinations at the edge of vision
+8. Loss of periods of time
+
+The exact threshold at which each symptom manifests varies by individual. The list is known; the personal curve is not.
+
+---
+
+## The point of no return
+
+The list of symptoms is not secret. It exists in the world as legend, accumulated knowledge, practitioner lore. A mage with enough exposure to the subject knows roughly what the progression looks like and knows that somewhere past the midpoint the situation becomes irreversible. They don't know exactly where. Nobody does.
+
+From the midpoint onward, each stage carries a growing probability of being the point of no return. The tension is not ignorance; it is uncertainty. The mage knows the window exists. They don't know if they're still inside it.
+
+Past that threshold, the damage is permanent. What that means differs by process.
+
+**Consumption past the point of no return:** the ceiling of the etheric system is permanently lowered. The safe operating range narrows. The mage can stabilize, can partially recover, but will never reach the capacity they had. The architecture of control has scar tissue where it used to have clean structure.
+
+**Poisoning past the point of no return:** the contamination cannot be fully eliminated. The craving does not disappear; it is suppressed, managed, held at bay. The perceptual distortion has a permanent baseline; the mage is never again as lucid about their own condition as they were before. The system's resistance to further contamination is compromised.
+
+In both cases the damage does not stay static if left unmanaged. Past the threshold, untreated degradation continues. The mage who stops managing their condition does not plateau; they slide.
+
+This is where dependency comes from. Substances, practices, or both can temporarily bring the affected parameters close to normal. The ceiling feels higher, the craving quiets, the distortion clears. But without continued maintenance, the condition reasserts itself. The dependency is not about feeling good; it is about not becoming something worse. It is an active equilibrium, not a stable state.
+
+What full recovery would look like, and whether it is possible at all, belongs to the host system.
+
 ---
 
 ## The difference that counts
@@ -58,7 +93,7 @@ The tragedy of consumption is lucid. The mage knows what's happening, watches it
 
 The tragedy of poisoning is blind. The mage believes they're fine, believes they're in control, believes the choices they're making are their own. By the time the gap between belief and reality is legible to anyone else, it's been legible for a while.
 
-Both paths can arrive at similar mechanical states. What distinguishes them is the story of how the character got there and who they are now. There's nothing to optimize in advance, and consumption isn't even a choice — it's a consequence.
+Both paths can arrive at similar mechanical states. What distinguishes them is the story of how the character got there and who they are now. There's nothing to optimize in advance, and consumption isn't even a choice; it's a consequence.
 
 ---
 
@@ -67,9 +102,3 @@ Both paths can arrive at similar mechanical states. What distinguishes them is t
 A mage who maintains a good component supply reduces reliance on ambient extraction and avoids the choice entirely. The system doesn't state this as a rule. It's a conclusion you reach after understanding what the alternatives cost.
 
 Arriving in a critical situation without components is not a resource management failure. It's a question about who you are and what you'll do next.
-
----
-
-## Design principle
-
-The physics records, it doesn't judge. A mage who drains a person to save ten people accumulates the same poisoning as one who does it for convenience. The etheric system processes the act, not the intention behind it. The moral weight lives in the fiction. The mechanics produce consequences that the fiction then has to carry.
