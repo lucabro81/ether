@@ -15,7 +15,7 @@ Concetti e meccaniche da affrontare in sessioni dedicate. Non bloccanti per il l
 ## Stress modifier scaling
 
 - **Forma della curva stress fisico** — non lineare, probabilmente piatta nella zona alta e ripida sotto il 30%. Richiede calibrazione numerica.
-- **Sistema a soglie stress mentale** — discontinuo per natura, richiede definizione delle soglie e degli effetti a ciascuna.
+- **Sistema a soglie stress mentale** — struttura concettuale chiusa: quattro soglie (interferenza, interferenza seria, limite, saturazione completa), soglie si alzano con expertise/stat. Calibrazione numerica richiede mechanic design.
 - **Aggiornamento contratto host system** — stress fisico e mentale diventano due input separati in system_dependencies.md.
 
 ---

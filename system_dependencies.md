@@ -26,11 +26,18 @@ The curve is not linear — degradation is gradual in the high range and acceler
 Ether does not define how the host system represents or tracks this value — only that it must be available at cast time.
 
 **Mental stress level**
-A dynamic value representing the character's current psychological state. Fear, panic, and shock contribute. Distinct from physical stress: behaves discontinuously, producing threshold effects rather than smooth degradation. Below a certain threshold it has no meaningful effect on channel performance. Above it, it begins to interfere with the nervous system's ability to direct the channel. At acute levels — panic, shock — it can saturate the interface entirely, collapsing the ability to impose structured effects while leaving the channel active.
+A dynamic value representing the character's current psychological state. Fear, panic, and shock contribute. Distinct from physical stress: behaves discontinuously, producing threshold effects rather than smooth degradation. Four thresholds define the progression:
+
+- **Threshold 1 — Interference**: stress is present but manageable. Moderate penalty to Coherence Roll. All structuring still possible, less reliable.
+- **Threshold 2 — Serious interference**: heavy penalty to Coherence Roll. Complex effects are risky but possible; simple effects are degraded.
+- **Threshold 3 — Limit**: incipient panic. Complex structuring carries high failure probability and is inadvisable, but not impossible. Simple effects are still attemptable at real risk. This is the window of dramatic tension — the mage can still attempt something meaningful while knowing they may lose control.
+- **Threshold 4 — Full saturation**: acute panic or shock. Structuring is impossible. Involuntary discharge risk. The channel is active but the interface is overwhelmed.
+
+Threshold tolerance scales with expertise and relevant attributes — a veteran mage reaches threshold 1 under greater stress than a novice, but the four-level structure applies to all.
 
 A saturated interface does not silence the channel. It removes conscious direction from it. Involuntary discharges under acute mental stress are the channel responding to an overwhelmed nervous system, not a failure of the channel itself.
 
-Ether does not define the threshold values or their effects in detail — only that mental stress must be provided as a separate input from physical stress, and that it must be available at cast time.
+Ether does not define the numerical threshold values — only that mental stress must be provided as a separate input from physical stress, and that it must be available at cast time.
 
 **Advancement system**
 Ether requires that the host system provide a mechanism through which Mastery and channel development can improve over time through training and experience. The specific advancement model is out of scope.
