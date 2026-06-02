@@ -25,7 +25,7 @@ Degradation is possible. Sustained operation beyond safe EP thresholds, backlash
 See also: [Channel](#channel), [Extraction](#extraction), [Thermal Drop](#thermal-drop).
 
 ### COHERENCE ROLL
-The check that determines whether the structure imposed during structuring holds as intended. A structured effect requires that the mage maintain coherent control over the ordered form; the more complex the structure, the higher the EP pressure, and the lower the channel quality, the greater the risk of partial or total coherence failure.
+The check that determines whether the structure imposed during structuring holds as intended. Applies both at the moment of casting and as a recurring check during maintenance of any persistent structured effect. Maintenance check difficulty is set by the Complexity of the structure; it degrades over time as Instability accumulates and worsens under external stress events passed from the host system. A structured effect requires that the mage maintain coherent control over the ordered form; the more complex the structure, the higher the EP pressure, and the lower the channel quality, the greater the risk of partial or total coherence failure.
 Failure does not necessarily mean nothing happens. It means the structure collapses in an uncontrolled way; energy is released, but not as intended. The consequences scale with how much energy was involved.
 Coherence Roll is influenced by: Complexity of the effect, current EP level, Channel Quality, and Mastery.
 
@@ -99,7 +99,7 @@ Energy removed from the local field equals energy made available to the mage. Co
 
 See also: [Entropic Balance](#entropic-balance), [Ether](#ether), [Thermal Drop](#thermal-drop).
 
-### ENTROPIC BALANCE
+### ENTROPY BALANCE
 Extraction concentrates dispersed energy, locally reducing the field's entropy. This is thermodynamically permitted because any ordered structure the mage imposes will eventually dissolve, releasing that entropy back. The books balance over time, not in the immediate environment.
 Mechanically relevant only as a constraint on structured effects; they are inherently temporary.
 
@@ -111,6 +111,17 @@ A pervasive energy field present throughout all matter and space. In its natural
 *Note: cultural or mystical interpretations of the field have no mechanical effect.*
 
 See also: [Energy Balance](#energy-balance), [Entropic Balance](#entropic-balance), [Ether Source](#ether-source).
+
+### ETHER PRESSURE (EP)
+Mechanical load on the channel tissue produced by extraction. Not residual energy; EP accumulates from the physical stress of energy transiting through the biological structure of the channel, not from energy left behind.
+EP accumulates only during extraction. Maintenance of a structured effect does not generate EP; the energy budget committed at extraction is held in the structure and depleted as the structure persists. If the budget is exhausted before the mage releases the structure, a new extraction is required — producing new thermal drop and new EP accumulation.
+Recovery requires rest. There is no mechanism for active discharge; the channel recovers as biological tissue recovers.
+EP level is tracked continuously and passed to the host system as an output. It functions as a modifier on Coherence Roll and as the trigger for channel damage when it exceeds the safe operating threshold.
+
+- **Overflow:** when EP exceeds the channel's safe threshold, permanent channel damage results. The ceiling is lowered. This is not a temporary condition.
+- **Body as ambient source:** the caster's body is part of the local ambient field. Under normal conditions this contribution is negligible. When the local field is already depleted — repeated extraction, extreme environmental cold, or both — the body becomes the densest available source and extraction begins to draw from it directly. This is not a choice; it follows from availability. Consequences belong to the host system.
+
+See also: [Channel](#channel), [Channel Quality](#channel-quality), [Coherence Roll](#coherence-roll), [Instability](#instability), [Thermal Drop](#thermal-drop).
 
 ### ETHER SOURCE
 The origin point from which raw energy is drawn during extraction. Three types:
@@ -132,7 +143,7 @@ The act of drawing energy from the local Ether field and concentrating it into a
 See also: [Collimation](#collimation), [Ether Source](#ether-source), [Structuring](#structuring), [Thermal Drop](#thermal-drop).
 
 ### INSTABILITY
-A condition of the channel, not of a single cast. Accumulates when the channel is operated under stress: high EP, coherence failures, backlash from volatile components. Represents progressive degradation of the channel's ability to impose and maintain ordered structure reliably. Distinct from the corruption processes described under [Consumption](#consumption) and [Poisoning](#poisoning); Instability is mechanical wear, not contamination or structural loss of control.
+A condition of the channel, not of a single cast. Accumulates when the channel is operated under stress: high EP, coherence failures, backlash from volatile components, and sustained maintenance of structured effects. A complex structure held over time generates progressive mechanical wear on the channel even without new extraction. Represents progressive degradation of the channel's ability to impose and maintain ordered structure reliably. Distinct from the corruption processes described under [Consumption](#consumption) and [Poisoning](#poisoning); Instability is mechanical wear, not contamination or structural loss of control.
 Instability manifests in two ways:
 
 - **Short term:** increases the probability and severity of coherence failures. An unstable channel wastes more of the energy budget, produces unpredictable effects, and accumulates EP faster.
