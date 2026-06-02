@@ -15,13 +15,22 @@ A measure of the character's physical robustness. Used to determine channel dura
 **Cognitive/concentration attribute**
 A measure of the character's mental capacity and focus. Used to determine the natural ceiling for Mastery development and as a modifier on Coherence Roll. A character with low cognitive capacity has a lower ceiling for structural complexity.
 
-**Physical/mental stress level**
-A dynamic value representing the character's current health and psychological state. Injuries, pain, and fear all contribute. Used by Ether as a modifier on three parameters:
+**Physical stress level**
+A dynamic value representing the character's current physical condition. Injuries and pain contribute. Degrades Ether parameters in a continuous, progressive way. Used by Ether as a modifier on three parameters:
 - Coherence Roll probability
 - Mastery effective efficiency
 - EP accumulation rate
 
+The curve is not linear — degradation is gradual in the high range and accelerates significantly at low values. Exact scaling requires calibration during mechanic design.
+
 Ether does not define how the host system represents or tracks this value — only that it must be available at cast time.
+
+**Mental stress level**
+A dynamic value representing the character's current psychological state. Fear, panic, and shock contribute. Distinct from physical stress: behaves discontinuously, producing threshold effects rather than smooth degradation. Below a certain threshold it has no meaningful effect on channel performance. Above it, it begins to interfere with the nervous system's ability to direct the channel. At acute levels — panic, shock — it can saturate the interface entirely, collapsing the ability to impose structured effects while leaving the channel active.
+
+A saturated interface does not silence the channel. It removes conscious direction from it. Involuntary discharges under acute mental stress are the channel responding to an overwhelmed nervous system, not a failure of the channel itself.
+
+Ether does not define the threshold values or their effects in detail — only that mental stress must be provided as a separate input from physical stress, and that it must be available at cast time.
 
 **Advancement system**
 Ether requires that the host system provide a mechanism through which Mastery and channel development can improve over time through training and experience. The specific advancement model is out of scope.
@@ -43,8 +52,11 @@ The current accumulated pressure on the caster's channel. Ether tracks this valu
 **Instability level**
 The current degradation state of the channel. Ether tracks this on a continuum. The host system uses it to apply modifiers and surface visible consequences to the character.
 
-**Corruption level (Rogue Path)**
-The accumulated corruption from extraction from living sources. Ether tracks this value. The host system is responsible for translating it into readable symptoms — physical, psychological, and behavioral. See Interface Points.
+**Consumption level (Rogue Path)**
+The accumulated structural degradation from chronic channel overextension. Ether tracks this value. The host system is responsible for translating it into readable symptoms. See Interface Points.
+
+**Poisoning level (Rogue Path)**
+The accumulated contamination from extraction from living sources. Ether tracks this value separately from consumption. The host system is responsible for translating it into readable symptoms — behavioral drift, perceptual distortion, craving. See Interface Points.
 
 ---
 
@@ -67,27 +79,35 @@ When extraction from a volatile component produces excess uncontrolled energy, E
 Direction: Ether → host
 Characters and objects within the thermal drop radius are exposed to the temperature decrease. Ether provides the value and radius. The host system manages exposure consequences over time.
 
-**Rogue Path corruption → symptom representation**
+**Rogue Path → symptom representation**
 Direction: bidirectional
-Ether tracks the corruption curve and threshold proximity. The host system is responsible for surfacing readable symptoms to the player — degrading health states, behavioral drift, channel anomalies. The symptom representation must be legible enough to make the point of no return a meaningful choice rather than an accident, without making the curve trivially avoidable.
+Ether tracks two separate values: consumption level and poisoning level. Both contribute to the overall progression. The host system is responsible for surfacing readable symptoms to the player. Consumption symptoms map to capability degradation — the mage perceives them as loss. Poisoning symptoms map to behavioral drift and perceptual distortion — the mage may not perceive them accurately at all. The symptom representation must be legible enough to make the point of no return a meaningful choice rather than an accident, without making the curve trivially avoidable.
+
+**Rogue Path → point of no return**
+Direction: Ether → host
+Past the midpoint of either corruption curve, each stage carries a growing probability of being the point of no return. Ether tracks proximity to threshold. The host system is responsible for representing the consequences of crossing it: permanent ceiling reduction for consumption, permanent contamination baseline for poisoning. Past the threshold, untreated degradation continues — the condition does not plateau. Management through substances or practices is possible; full recovery belongs to the host system.
 
 **Channel activation → character creation**
 Direction: host → Ether
 The host system determines whether a character's attributes place them above the channel activation threshold. Below the threshold, Ether is entirely inactive for that character. Above it, Ether becomes available — involuntarily at first, requiring training to control.
 
-**Physical/mental stress → channel performance**
+**Physical stress → channel performance**
 Direction: host → Ether
-The host system's health and stress representation feeds into Ether at cast time as a modifier. Injuries, pain, and fear degrade Coherence Roll probability, reduce effective Mastery efficiency, and accelerate EP accumulation. The host system must provide a current stress value that Ether can consume.
+The host system's physical health representation feeds into Ether at cast time as a continuous modifier. Injuries and pain degrade Coherence Roll probability, reduce effective Mastery efficiency, and accelerate EP accumulation. Degradation is progressive and non-linear. The host system must provide a current physical stress value that Ether can consume.
+
+**Mental stress → channel control**
+Direction: host → Ether
+The host system's psychological state representation feeds into Ether at cast time as a threshold modifier. Fear and panic interfere with the nervous system's ability to direct the channel. At acute levels the interface saturates, collapsing structured effect capability while leaving the channel active. The host system must provide a current mental stress value that Ether can consume, distinct from physical stress.
 
 ---
 
 ## OPEN PROBLEMS
 
 **Rogue Path corruption curve**
-The corruption curve must be calibrated so that symptoms provide sufficient signal to make the point of no return a meaningful player choice — not an accident, not trivially avoidable. The shape of the curve, the symptom progression, and the threshold location require dedicated mechanic design. Not solvable at glossary level.
+The corruption curve must be calibrated so that symptoms provide sufficient signal to make the point of no return a meaningful player choice — not an accident, not trivially avoidable. The shape of the curve, the symptom progression, and the threshold location require dedicated mechanic design.
 
 **Stress modifier scaling**
-How physical/mental stress maps to Ether modifiers is not yet defined. A simple linear modifier may be insufficient — a mage at 10% health and a mage at 80% health probably do not sit on a smooth curve. Requires calibration during mechanic design.
+How physical stress maps to Ether modifiers requires calibration. The curve is non-linear — flat in the high range, steep at low values. Mental stress threshold values and their specific effects also require definition. Both require dedicated mechanic design.
 
 **Temporary channel enhancement**
 Whether channel capability can be temporarily elevated — through components, substances, rituals, or other means — is noted as a possibility but not yet defined. If it exists, the mechanism and cost require dedicated design.
