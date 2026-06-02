@@ -11,3 +11,6 @@ Base layer: thermal effects exist within the fiction, narrated and applied at GM
 Survivor layer: thermal drop and heat release are tracked numerically with no narrative softening.
 
 This applies to any mechanic with a physical basis that has both immediate tactical relevance and longer-term environmental consequences.
+
+### Physics doesn't judge
+The physics records, it doesn't judge. A mage who drains a person to save ten people accumulates the same poisoning as one who does it for convenience. The etheric system processes the act, not the intention behind it. The moral weight lives in the fiction. The mechanics produce consequences that the fiction then has to carry.
